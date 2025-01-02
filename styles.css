@@ -6,6 +6,16 @@ body {
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
+
+    height: 100%;
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.25, #20943d),
+        color-stop(0.63, #48709F),
+        color-stop(0.82, #704d01)
+    );   
 }
 
 article {
